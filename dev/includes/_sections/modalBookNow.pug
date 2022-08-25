@@ -1,0 +1,490 @@
+#exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg(role='document')
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Private Car
+        button.close(type='button', data-bs-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') &times;
+      .modal-body
+        .container
+          .d-flex.justify-content-between.align-items-center
+            form.w-100
+              i.fa-solid.fa-hotel.text-primary.pl-2
+              label Hotel
+              input#hotel.form-control(name='hotel', type='text', placeholder='Select your hotel')
+              i.fa-solid.fa-user.text-primary
+              label Passangers
+              select#passanger.form-control(name='passanger')
+                option(value='false') How many passangers
+                option(value='1 passanger') 1 passanger
+                option(value='2 passangers') 2 passangers
+                option(value='3 passangers') 3 passangers
+                option(value='4 passangers') 4 passangers
+                option(value='5 passangers') 5 passangers
+                option(value='6 passangers') 6 passangers
+                option(value='7 passangers') 7 passangers
+                option(value='8 passangers') 8 passangers
+                option(value='9 passangers') 9 passangers
+                option(value='10 passangers') 10 passangers
+                option(value='11 passangers') 11 passangers
+                option(value='12 passangers') 12 passangers
+                option(value='13 passangers') 13 passangers
+                option(value='14 passangers') 14 passangers
+                option(value='15 passangers') 15 passangers
+                option(value='16 passangers') 16 passangers
+                option(value='17 passangers') 17 passangers
+              i.fa-solid.fa-signs-post.text-primary
+              label Service
+              select#service.form-control(name='service', placeholder='One Way')
+                option(value='One Way') One Way
+                option(value='Round Trip') Round Trip
+              i.fa-solid.fa-square-arrow-up-right.text-primary
+              label Departure
+              select#departure.form-control(name='departure', placeholder='From Airport to Hotel')
+                option(value='From Airport to Hotel') From Airport to Hotel
+                option(value='From Hotel to Airport') From Hotel to Airport
+            img(src='img/units/suburban.png')
+      .modal-footer
+        button.btn.btn-secondary(type='button', data-bs-dismiss='modal') Close
+        button.btn.btn-danger.w-25(type='button') Send
+
+
+#modalZone1.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .row.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/alegranza.jpeg')
+            small Alegranza
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/barcelo-grand-faro.jpeg')
+            small Barcelo Grand Faro
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/cabo-azul.jpeg')
+            small Cabo Azul
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/casa-costa-azul.jpeg')
+            small Costa Azul
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/casa-natalia.jpeg')
+            small Casa Natalia
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/club-campestre-san-jose.jpeg')
+            small Club campestre San Jose
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/drift.jpeg')
+            small Drift
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/encanto-inn.jpeg')
+            small Encanto Inn
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/grand-mayan.jpeg')
+            small Grand Mayan
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/holiday-inn-resort.jpeg')
+            small Holiday Inn Resort
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/hotel-colli.jpeg')
+            small Hotel Colli
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/hyatt-place.jpeg')
+            small Hyatt-place
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/hyatt-ziva.jpeg')
+            small Hyatt Ziva
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/las-mananitas.jpeg')
+            small Las Mañanitas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/marisol-boutique.jpeg')
+            small Marisol Boutique
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/mykonos.jpeg')
+            small Mykonos
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/park-royal.jpeg')
+            small Park Royal
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/posada-real.jpeg')
+            small Posada Real
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/posada-senor-manana.jpeg')
+            small Posada Señor Mañana
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/posada-terranova.jpeg')
+            small Posada Terranova
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/posada-yuca-inn.jpeg')
+            small Posada Yuca Inn
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/reflect-krystal-grand.jpeg')
+            small Reflect Krystal Grand
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/royal-decameron.jpeg')
+            small Royal Decameron
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/royal-solaris.jpeg')
+            small Royal Solaris
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/sampaguita.jpeg')
+            small Sampaguita
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/santa-maria-hotel-and-suites.jpeg')
+            small Santa Maria Hotel and Suites
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/soleado.jpeg')
+            small Soleado
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/suites-las-palmas.jpeg')
+            small Suites Las Palmas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/tropicana-inn.jpeg')
+            small Tropicana Inn
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/viceroy.jpeg')
+            small Viceroy
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/viva-condos.jpeg')
+            small Viva Condos
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone1/worldmark-by-wyndham.jpeg')
+            small Coral Baja
+
+
+#modalZone2.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .row.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/baja-point.jpeg')
+            small.pb-1 Baja Point
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/cabo-surf.jpeg')
+            small Cabo Surf
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/casa-del-mar.jpeg')
+            small Casa del Mar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/chileno-bay.jpeg')
+            small Chileno Bay
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/club-regina.jpeg')
+            small Club Regina
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/dreams.jpeg')
+            small Dreams
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/el-dorado-residences.jpeg')
+            small El Dorado Residences
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/el-ganzo.jpeg')
+            small El Ganzo
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/encanto-de-la-laguna.jpeg')
+            small Encanto de la Laguna
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/espiritu-del-mar.jpeg')
+            small Espiritu del Mar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/garza-blanca.jpeg')
+            small Garza Blanca
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/grand-velas.jpeg')
+            small Grand Velas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/hampton-inn-suites.jpeg')
+            small Hampton Inn Suites
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/hilton.jpeg')
+            small Hilton
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/jw-marriott.jpeg')
+            small JW Marriott
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/las-ventanas-al-paraiso.jpeg')
+            small Las Ventanas al Paraiso
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/le-blanc.jpeg')
+            small Le Blanc
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/maravilla.jpeg')
+            small Maravilla
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/marquis.jpeg')
+            small Marquis
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/one-and-only-palmilla.jpeg')
+            small One and Only palmilla
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/paradisus.jpeg')
+            small Paradisus
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/querencia.jpeg')
+            small Querencia
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/ritz-carlton.jpeg')
+            small Ritz-Carlton 
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/secrets-puerto-los-cabos.jpeg')
+            small Secrets Puerto Los Cabos
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/sheraton-hacienda-del-mar.jpeg')
+            small Sheraton Hacienda Del Mar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/solaz.jpeg')
+            small Solaz
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/vievage.jpeg')
+            small Vievage
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/villas-del-mar.jpeg')
+            small Villas del Mar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone2/westin-regina.jpeg')
+            small Westin-Regina
+
+
+#modalZone3.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .row.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/bahia.jpeg')
+            small Bahia
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/breathless-cabo-san-lucas.jpeg')
+            small Breathless Cabo San Lucas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/cabo-cush.jpeg')
+            small Cabo Cush
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/cabo-viejo.jpeg')
+            small Cabo Viejo
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/cabo-villas.jpeg')
+            small Cabo Villas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/casa-dorada.jpeg')
+            small Casa Dorada
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/city-express-plus.jpeg')
+            small City Express Plus
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/city-express-suites.jpeg')
+            small City Express Suites
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/club-cascadas-de-baja.jpeg')
+            small Club Cascadas de Baja
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/comfort-inn.jpeg')
+            small Comfort Inn
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/el-ameyal.jpeg')
+            small El Ameyal
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/esperanza-an-auberge.jpeg')
+            small Esperanza an Auberge
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/estancia-real.jpeg')
+            small Estancia Real
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/fairfield-inn-marriott.jpeg')
+            small Fairfield Inn Marriott
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/grand-fiesta-americana.jpeg')
+            small Grand Fiesta Americana
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/grand-solmar.jpeg')
+            small Grand Solmar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/hacienda-beach-club.jpeg')
+            small Hacienda Beach Club
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/hacienda-encantada.jpeg')
+            small Hacienda Encantada
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/holiday-inn-express.jpeg')
+            small Holiday Inn Express
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/los-cabos-golf-resort.jpeg')
+            small Los Cabos Golf Resort
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/los-patios.jpeg')
+            small Los Patios
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/mar-del-cabo.jpeg')
+            small Mar del Cabo
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/marina-fiesta.jpeg')
+            small Marina Fiesta
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/marina-sol.jpeg')
+            small Marina Sol
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/me-cabo-by-melia.jpeg')
+            small Me Cabo by Melia
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/medano-hotel-and-suites.jpeg')
+            small Medano Hotel And Suites
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/misiones-del-cabo.jpeg')
+            small Missiones Del Cabo
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/montage.jpeg')
+            small Montage
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/playa-grande.jpeg')
+            small Playa Grande
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/pueblo-bonito-los-cabos.jpeg')
+            small Pueblo Bonito Los Cabos
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/pueblo-bonito-rose.jpeg')
+            small Pueblo Bonito Rose
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/quintas-del-sol.jpeg')
+            small Quintas del Sol
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/riu-palace.jpeg')
+            small Riu Palace
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/riu-santa-fe.jpeg')
+            small Riu Santa Fe
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/sandos-finisterra.jpeg')
+            small Sandos Finisterra
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/seven-crown.jpeg')
+            small Seven Crown
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/sirena-del-mar.jpeg')
+            small Sirena del Mar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/sunrock-condo.jpeg')
+            small Sunrock Condo
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/the-cape-thompson.jpeg')
+            small The Cape Thompson
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/villa-del-arco.jpeg')
+            small Villa del Arco
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/villa-del-palmar.jpeg')
+            small Villa del Palmar
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/villa-la-estancia.jpeg')
+            small Villa la Estancia
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/villa-valencia.jpeg')
+            small Villa Valencia
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/waldorf-astoria-at-pedregal.jpeg')
+            small Waldorf Astoria at Pedregal
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone3/wyndham-tesoro.jpeg')
+            small Wyndham Tesoro
+
+
+#modalZone4.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .row.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/copala.jpeg')
+            small Copala
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/montecristo-estates.jpeg')
+            small Montecristo Estates
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/nova-hispania.jpeg')
+            small Nova Hispania
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/pedregal-cabo-san-lucas.jpeg')
+            small Pedregal Cabo San Lucas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/pueblo-bonito-pacifica.jpeg')
+            small Pueblo Bonito Pacifica
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/pueblo-bonito-sunset-beach.jpeg')
+            small Pueblo Bonito Sunset Beach
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone4/quivira.jpeg')
+            small Quivira
+
+
+#modalZone5.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .row.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone5/diamante-cabo-san-lucas.jpeg')
+            small Diamante Cabo San Lucas
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone5/grand-solmar-at-rancho.jpeg')
+            small Grand Solmar at Rancho
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone5/hard-rock-hotel.jpeg')
+            small Hard Rock Hotel
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone5/nobu.jpeg')
+            small Nobu
+
+
+
+#modalZone6.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .d-flex.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid.rounded-3(src='img/izone6/5.jpeg')
+            small East Cape
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid.rounded-3(src='img/izone6/6.jpeg')
+            small Los Barriles
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid.rounded-3(src='img/izone6/2.jpeg')
+            small El Triunfo
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid.rounded-3(src='img/izone6/1.jpeg')
+            small Pescadero
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid.rounded-3(src='img/izone6/4.jpeg')
+            small Todos Santos
+
+
+#modalZone7.modal.fade(tabindex='-1', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h5#exampleModalLabel.modal-title Modal title
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body.d-flex.justify-content-center
+        .row.text-center.justify-content-center.mx-1
+          .col-lg-2.border.border-dark.rounded.m-1
+            img.img-fluid(src='img/izone7/3.jpeg')
+            small La Paz
+

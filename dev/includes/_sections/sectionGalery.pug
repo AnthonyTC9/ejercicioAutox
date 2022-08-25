@@ -1,0 +1,38 @@
+section.galery
+  #carouselExampleCaptions.carousel.slide(data-bs-ride='carousel')
+    .carousel-indicators
+      button.active(type='button', data-bs-target='#carouselExampleCaptions', data-bs-slide-to='0', aria-current='true', aria-label='Slide 1')
+      button(type='button', data-bs-target='#carouselExampleCaptions', data-bs-slide-to='1', aria-label='Slide 2')
+      button(type='button', data-bs-target='#carouselExampleCaptions', data-bs-slide-to='2', aria-label='Slide 3')
+      button(type='button', data-bs-target='#carouselExampleCaptions', data-bs-slide-to='3', aria-label='Slide 4')
+    .carousel-inner
+      .carousel-item.active(data-bs-interval='5000')
+        img.d-block.w-100(src='img/units/suburban-1.jpg', alt='...')
+        .carousel-caption.d-none.d-md-block
+          h1 Chevrolet
+          h3 Suburban
+          h3 Luxury SUV with 5 passangers capacity
+      .carousel-item(data-bs-interval='5000')
+        img.d-block.w-100(src='img/units/expedition-1.jpg', alt='...')
+        .carousel-caption.d-none.d-md-block
+          h1 Ford
+          h3 Expedition
+          h3 Luxury SUV with 5 passangers capacity
+      .carousel-item
+        img.d-block.w-100(src='img/units/van-1.jpg', alt='...')
+        .carousel-caption.d-none.d-md-block
+          h1 Toyota
+          h3 Hiace
+          h3 Luxury VAN with 10 passangers capacity
+      .carousel-item
+        img.d-block.w-100(src='img/units/crafter-1.jpg', alt='...')
+        .carousel-caption.d-none.d-md-block
+          h1 Volkswagen
+          h3 Crafter
+          h3 Luxury VAN with 16 passangers capacity
+    button.carousel-control-prev(type='button', data-bs-target='#carouselExampleCaptions', data-bs-slide='prev')
+      span.carousel-control-prev-icon(aria-hidden='true')
+      span.visually-hidden Previous
+    button.carousel-control-next(type='button', data-bs-target='#carouselExampleCaptions', data-bs-slide='next')
+      span.carousel-control-next-icon(aria-hidden='true')
+      span.visually-hidden Next

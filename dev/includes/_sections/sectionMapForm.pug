@@ -1,0 +1,14 @@
+section#map-form
+  .mt-4
+    iframe.border(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.7974020480276!2d-109.93292419526898!3d22.895271284252384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1f2739eed7b737d!2sMela%20Transfer!5e0!3m2!1ses-419!2smx!4v1648344889844!5m2!1ses-419!2smx', width='100%', height='450', style='border:0;', allowfullscreen='', loading='lazy')
+  .container
+    .cuadro-contacto.d-flex.justify-content-center
+      .cuadro.bg-body.w-75.px-5.py-4.border
+        .text-center.mb-5.text-primary.fw-bold
+          h1 Contact us
+        .row
+          form
+            input.form-control.mb-2(type='text', placeholder='Full Name', required='')
+            input.form-control.mb-2(type='email', placeholder='E-mail', required='')
+            textarea.form-control.mb-2(placeholder='Your Menssage..', required='')
+            button.btn.btn-danger.w-100.fs-4.mb-4(type='submit', onclick='clickAlert()', href='#') Send
