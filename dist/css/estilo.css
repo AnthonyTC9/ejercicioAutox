@@ -120,6 +120,12 @@ footer a {
 .tamaño {
   font-size: 18px;
 }
+.hotel .hotel-margin {
+  width: 24.33%;
+}
+.hotel .margin-hotel {
+  width: 32.4%;
+}
 @media (max-width: 992px) {
   #img-text img {
     display: none;
@@ -188,6 +194,9 @@ footer a {
     display: block !important;
     font-size: calc(0.3rem + 0.6vw) !important;
   }
+  .col-sm-12 {
+    width: 100% !important;
+  }
 }
 @media (max-width: 430px) {
   #exampleModal img {
@@ -199,8 +208,8 @@ footer a {
     padding-top: 7rem;
   }
 }
-@media (min-width: 992px) {
-  .col-lg-1 {
+@media (min-width: 1200px) {
+  .col-xl-1 {
     flex: 1 0 0%;
     width: none;
   }
